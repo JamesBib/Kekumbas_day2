@@ -187,6 +187,15 @@ div[title*="s"] {
 
 /* CSS DISPLAYS */
 
+.block-level {
+    border: 5px solid black;
+}
+
+.block-level > h3 {
+    border: 3px solid magenta;
+    display: inline; 
+} 
+/* overrides the default of display: block */
 
 
 /* 
@@ -199,6 +208,15 @@ div[title*="s"] {
 /* CSS POSITIONS */
 
 /* position: relative - positioned relative to its normal position. Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position */
+.podition-border {
+    border: 5px solid blue;
+    height: 150vh;
+    position: relative;
+    top: 0px;
+    left: 20px;
+
+}
+
 
 /* position: fixed - positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled */
 
